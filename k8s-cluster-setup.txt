@@ -432,8 +432,8 @@
   432  docker tag c53542a5b47a docker.io/kotireddy680/new:v1
   433  docker ps
   434  docker images
-  435  docker push docker.io/kotireddy680/new:v1
-  436  sudo docker push docker.io/kotireddy680/new:v1
+  435  docker push docker.io/kotireddy6/new:v1
+  436  sudo docker push docker.io/kotireddy6/new:v1
   437  docker push docker.io/kraws/new:v1
   438  docker push docker.io/kotireddy680/new:v1
   439  docker push
@@ -449,7 +449,7 @@
   449  free -m
   450  sudo su
   451  git
-  452  git clone https://github.com/kotireddy680/docker-k8s.git
+  452  git clone https://github.com/kotireddy6/docker-k8s.git
   453  ls
   454  cd docker-k8s/
   455  cd 
@@ -501,8 +501,8 @@
   501  git init
   502  git add .
   503  git commit -m "my first" Dockerfile 
-  504  git config --global user.name "kotireddy680"
-  505  git config --global user.email kotireddy680@gmail.com
+  504  git config --global user.name "kotireddy"
+  505  git config --global user.email kotireddygmail.com
   506  git commit --amend --rest-author
   507  git push 
   508  cat Dockerfile 
