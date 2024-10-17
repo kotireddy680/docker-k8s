@@ -1,0 +1,520 @@
+    1  sudo su
+    2  docker ps
+    3  exit
+    4  docker ps
+    5  sudo passwd adminuser
+    6  ls
+    7  docker 
+    8  docker pull jenkins/ssh-agent
+    9  docker ps
+   10  docker ps -a
+   11  docker images
+   12  docker imges ls
+   13  docker images ls
+   14  docker image ls
+   15  docker image rm latest
+   16  docker image
+   17  docker image ls
+   18  docker image rm latest
+   19  docker image rm jenkins/ssh-agent
+   20  docker image ls 
+   21  docker image ls
+   22  docker run
+   23  docker pull nginx:ltest
+   24  docker pull nginx:latest
+   25  docker images
+   26  docker run nginx
+   27  docker run
+   28  docker pull samples:mywebsite-v1
+   29  docker image pull  samples:mywebsite-v1
+   30  docker ps 
+   31  docker ps -a
+   32  docker start 73e55651c960
+   33  docker ps -a
+   34  docker ps
+   35  docker images
+   36  docker ps 
+   37  docker ps -a
+   38  docker ps
+   39  docker ps -a
+   40  docker images
+   41  docker rm nginx
+   42  docker rm latest
+   43  docker run -d nginx
+   44  docker ps
+   45  docker run -d nginx
+   46  docker ps
+   47  docker rm 73e55651c960
+   48  docker rm --force 73e55651c960
+   49  docker ps
+   50  docker ps -a
+   51  docker run -d 73e55651c960
+   52  docker start 73e55651c960
+   53  docker ps
+   54  docker images
+   55  docker ps 
+   56  docker rm --force 0579d096e415
+   57  docker rm --force 0579d096e415 09657ab7fcda
+   58  docker ps
+   59  docker ps -a
+   60  docker pull nginx:Latest
+   61  docker pull nginx:latest
+   62  docker ps
+   63  docker ps -a
+   64  docker images
+   65  docker start nginx
+   66  docker run -d nginx:latest
+   67  docker ps
+   68  docker stop 677a98e2fc4b
+   69  docker [ps
+   70  docer ps
+   71  docker ps
+   72  docker ps -a
+   73  docker start 677a98e2fc4b
+   74  docker ps
+   75  docker run -d tomcat:8.4.40
+   76  docker run -d tomcat:8.5.40
+   77  docker ps
+   78  docker run -d tomcat:8.5.45
+   79  docker ps
+   80  docker images
+   81  docker run -d tomcat:8.5.40
+   82  docker run -d tomcat:8.5.45
+   83  docker ps
+   84  docker image ls
+   85  docker rmi 7f553e8bbc89
+   86  docker rmi --force 7f553e8bbc89
+   87  docker rm --force  7f553e8bbc89
+   88  docker ps
+   89  docker rm --force f66f76b34b57 97df50793ffa b4b2da194a08 dc8ec9a2d68c 677a98e2fc4b 
+   90  docker ps
+   91  docker image ls
+   92  docker rmi 7f553e8bbc89
+   93  docker image ls
+   94  docker rmi 365b0a528e2e 27600aa3d7f1
+   95  docker ps
+   96  docker image ls
+   97  history
+   98  docker ps
+   99  docker ps -a
+  100  docker pull nginx:latest
+  101  docker ps
+  102  docker image
+  103  docker images
+  104  docker run -d nginx:latest
+  105  docker ps
+  106  docker log 71350f3b3ab5
+  107  docker logs 71350f3b3ab5
+  108  docker ps
+  109  docker inspect 71350f3b3ab5
+  110  cat var/lib/docker/containers/
+  111  cd  var/lib/docker/containers/
+  112  cd / var/lib/docker/containers
+  113  cd /var/lib/docker/
+  114  sudo cd /var/lib/docker/
+  115  ls cd /var/lib/docker/
+  116  ls /var/lib/docker/
+  117  ls /var/lib/docker/containers
+  118  cd /var/lib/
+  119  cd docker/
+  120  ls
+  121  cat docker/
+  122  sudo su
+  123  cd
+  124  curl 172.17.0.2
+  125  docker ps 
+  126  docker images
+  127  docker run -d nginx:latest
+  128  docker ps
+  129  docker inspect 89acbcb9672b
+  130  curl 172.17.0.2
+  131  docker ps
+  132  docker kill 89acbcb9672b
+  133  docker ps
+  134  docker ps -a
+  135  docker start 89acbcb9672b
+  136  docker ps 
+  137  docker run -d nginx:latest
+  138  docker ps
+  139  docker kill 89acbcb9672b
+  140  docker kill e48eb2cd38bc d5f31b075b20 617a5adca4f3 89acbcb9672b
+  141  docker ps
+  142  docker kill b3c3dc8dc713
+  143  docker ps
+  144  docker run -d nginx:latest
+  145  docker ps
+  146  docker rm --force 14ebec6e5a9e
+  147  docker ps
+  148  docker ps -a
+  149  docker start 14ebec6e5a9e
+  150  docker rm --force 14ebec6e5a9e
+  151  docker run -d nginx:latest
+  152  ls
+  153  docker ps
+  154  docker ps -a
+  155  docker ps
+  156  docker run -d -p 9090:80 nginx:latest
+  157  docker ps
+  158  docker ps
+  159  docker kill 06b9dac55e62 0f659490b75f c86d463a9b79
+  160  docker ps
+  161  docker images
+  162  docker pull lerndevops/samples:mywebsite-v1
+  163  docker images
+  164  docker run -d -p lerndevops/samples:mywebsite-v1
+  165  docker run -d -p mywebsite-v1
+  166  docker run -d -p d72c1a3e1031
+  167  docker run -d mywebsite-v1
+  168  docker run -d mywebsite-v
+  169  docker run -d lerndevops/sample:mywebsite-v
+  170  docker ps -a
+  171  docker ps -d  lerndevops/samples
+  172  docker imges
+  173  docker images
+  174  docker run -d -p lerndevops/samples:mywebsite-v1
+  175  docker run -d -P lerndevops/samples:mywebsite-v1
+  176  docker ps 
+  177  docker exec -it 00b1f0a87474 /bin/bash
+  178  docker exec 00b1f0a87474 java -version
+  179  docker ps
+  180  docker run -d nginx:latest
+  181  docker ps
+  182  docker exec 7002850032bc java -version
+  183  docker exec 7002850032bc ls -l
+  184  docker exec 7002850032bc vi bac.txt
+  185  docker exec 7002850032bc java
+  186  docker pull tomcat:latest
+  187  docker run -d tomcat:latest
+  188  docker ps
+  189  docker exec 9bebff1dbdc1 java -version
+  190  docker exec -it 9bebff1dbdc1 /bin/bash
+  191  ls
+  192  docker build do
+  193  docker build nginx
+  194  docker build nginx:latest
+  195  docker ps
+  196  docker ps -qa`
+  197  docker `ps -qa`
+  198  docker ps 
+  199  docker exec -it 00b1f0a87474 /bin/bahs
+  200  docker exec -it 00b1f0a87474 /bin/bash
+  201  docker ps
+  202  docker exec -it 9bebff1dbdc1 /bin/bash
+  203  docker ps
+  204  docker run -d -P 9bebff1dbdc1
+  205  docker run -d -p 9090:80 tomcat:latest
+  206  docker ps 
+  207  docker commit -m "deployed myapp" 9bebff1dbdc1 myapp:v1
+  208  docker images 
+  209  docker run -d -P myapp:v1
+  210  docker ps
+  211  docker image ls
+  212  docker rm 4c4209544b2c
+  213  docker rm --force 4c4209544b2c
+  214  docker ps
+  215  docker rm --force 9bebff1dbdc1 7002850032bc 00b1f0a87474
+  216  docker ps
+  217  docker commit -m "my first image" 50276b98f2f9 myapp:v2
+  218  docker images
+  219  docker ps 
+  220  docker rmi 09d116e686ae 7299e5af0325
+  221  docker images
+  222  docker rmi 7299e5af0325 7f553e8bbc89 571MB
+  223  tomcat               latest         7299e5af0325   47 hours ago    462MB
+  224  nginx                latest         7f553e8bbc89   8 days ago      192MB
+  225  lerndevops/samples   mywebsite-v1   d72c1a3e1031
+  226  docker images
+  227  docker rmi 7299e5af0325
+  228  docker ps
+  229  docker ps -a
+  230  docker start d5f31b075b20
+  231  docker ps
+  232  dokcer kill d5f31b075b20
+  233  docker kill d5f31b075b20
+  234  docker ps -a
+  235  docker rm `
+  236  docker ps
+  237  docker ps -aq
+  238  docker rm -f $(docker ps -aq)
+  239  docker ps -aq
+  240  docker ps
+  241  docker ps -a
+  242  docker images
+  243  docker rmi $(docker images -q)
+  244  docker images
+  245  ls
+  246  docker ls
+  247  docker ps
+  248  docker ps -a
+  249  docker images
+  250  docker image la
+  251  docker image ls
+  252  docker login
+  253  docker pul tomcat:latest
+  254  docker pull tomcat:latest
+  255  docker images
+  256  docker ps
+  257  docker ps -a
+  258  docker run tomcat:latest
+  259  docker run -d tomcat:latest
+  260  docker ps
+  261  docker run -d -P af5d15aefb75
+  262  docker run -d -P tomcat:latst
+  263  docker run -d -p tomcat:latst
+  264  docker run -d -p 8888:80 tomcat:latst
+  265  docker run -d tomcat:latest
+  266  docker run -d -p 8888:80 af5d15aefb75
+  267  docker push af5d15aefb75
+  268  docker ps -a
+  269  docker run -d -P tomcat:latest 
+  270  docker ps -a
+  271  docker run -d -p 6060:80  tomcat:latest 
+  272  docker ps -a
+  273  docker run -d -p 6060:80 1be5a02d038b
+  274  docker login
+  275  docker exec -it 1be5a02d038b /bin/bash
+  276  docker ps
+  277  history 
+  278  docker ps -a
+  279  docker commit -m "my app" 1be5a02d038b myapp:kk
+  280  docker ps
+  281  docker ps -a
+  282  docker ps
+  283  docker run -d tomcat:8.45.5
+  284  docker pull tomcat:8.45.5
+  285  docker pull tomcat:8.5.45
+  286  docker run -d -p 7777:80 tomcat:8.5.45 ram:t1
+  287  docker 
+  288  docker run -d -p 7777:80 tomcat:8.5.45 
+  289  docker ps 
+  290  docker exec -it 640e881f7b78 /bin/bash
+  291  docker inspect 640e881f7b78
+  292  curl 172.17.0.6
+  293  curl 172.17.0.6:7777
+  294  curl 172.17.0.6:8080
+  295  docker ps
+  296  docker run -d -p tomcat:8.5.45
+  297  docker run -d -p 640e881f7b78
+  298  docker images
+  299  docker run -d -P 365b0a528e2e
+  300  docker ps 
+  301  docker exec -it 21c7eb723a63 /bin/bash
+  302  docker ps 
+  303  docker stop 21c7eb723a63
+  304  docker ps
+  305  docker start 21c7eb723a63
+  306  docker ps
+  307  docker exec -it 21c7eb723a63 /bin/bash
+  308  docker commit -m "new app" 21c7eb723a63 myimages:v1
+  309  docker images
+  310  docker rm $(docker ps -aq)
+  311  docker rm --force $(docker ps -aq)
+  312  docker ps
+  313  docker ps -a
+  314  docker images
+  315  docker run -d -p 40932d1cb8ef
+  316  docker run -d -P 40932d1cb8ef
+  317  docker ps
+  318  vi Dockerfile
+  319  cat 
+  320  cat Dockerfile 
+  321  vi Dockerfile
+  322  docker ls -l
+  323  ls -l
+  324  docker build --file Dockerfile --tag mynew:v3
+  325  docker build --file Dockerfile --tag mynew:v3 .
+  326  vi Dockerfile 
+  327  docker images
+  328  vi Dockerfile 
+  329  docker ps
+  330  docker build --file Dockerfile --tag mynew:v3 .
+  331  vi Dockerfile 
+  332  docker build --file Dockerfile --tag mynew:v3 .
+  333  vi Dockerfile 
+  334  docker build --file Dockerfile --tag mynew:v3 .
+  335  vi Dockerfile 
+  336  docker ps
+  337  docker images
+  338  docker rm --force $(docker images ps -qa)
+  339  docker rm --force $(docker images ps -aq)
+  340  docker rm --force $(docker image ps -aq)
+  341  docker rmi --force $(docker image ps -aq)
+  342  docker rmi --force $(docker imagse ps -aq)
+  343  docker rmi --force $(docker images ps -aq)
+  344  docker rmi --force $(docker image  ps -aq)
+  345  docker rm --force $(docker image  ps -aq)
+  346  docker rm $(docker ps -aq)
+  347  docker rm --force  $(docker ps -aq)
+  348  docker rm --force  $(docker images  -aq)
+  349  docker images
+  350  docker rm --force  $(docker images  ps -aq)
+  351  docker rm --force  $(docker image  ps -aq)
+  352  docker rmi --force  $(docker image  -aq)
+  353  docker rmi --force  $(docker images  -aq)
+  354  docker rmi --force $(docker images  -qa)
+  355  docker ls  $(docker images  -qa)
+  356  vi Dockerfile 
+  357  docker build --file Dockerfile --tag mynew:v1 .
+  358  docker images
+  359  docker image
+  360  docker image ls
+  361  docker ps
+  362  docker ps -a
+  363  vi Dockerfile 
+  364  docker build --file Dockerfile --tag mynew:v1 .
+  365  vi Dockerfile 
+  366  docker build --file Dockerfile --tag mynew:v1 .
+  367  docker ps
+  368  docker images
+  369  docker run -d -p 7777:80 d33caa8960b6
+  370  docker ps 
+  371  docker ps
+  372  docker exec -it 49d98ef9c1a1 /bin/bash
+  373  docker inspect 49d98ef9c1a1
+  374  curl 172.17.0.2:7777
+  375  curl http://172.17.0.2:7777
+  376  curl http://172.17.0.2:7777/myapp
+  377  curl http://172.17.0.2
+  378  curl 172.17.0.2
+  379  docker stop 49d98ef9c1a1
+  380  docker start 
+  381  docker start 49d98ef9c1a1
+  382  curl http://172.17.0.2
+  383  docker exec -it 49d98ef9c1a1 /bin/bash
+  384  vi Dockerfile 
+  385  docker build --file Dockerfile --tag my:v3 
+  386  docker build --file Dockerfile --tag my:v3  .
+  387  docker images
+  388  docker run -d -P c53542a5b47a
+  389  docker ps 
+  390  vi Dockerfile 
+  391  docker rmi $(docker images -aq)
+  392  docker rmi --force $(docker images -aq)
+  393  docker rm --force $(docker ps -aq)
+  394  docker rmi --force $(docker images -aq)
+  395  docker build .
+  396  docker images
+  397  docker run -d -P c53542a5b47a
+  398  docker ps 
+  399  docker run -d -P c53542a5b47a sleep 30
+  400  docker ps
+  401  docker rm 79d853d65faf
+  402  docker rm --force 79d853d65faf
+  403  docker ps
+  404  docker ps -a
+  405  docker start c8c307946c74
+  406  docker ps
+  407  docker rm --force c8c307946c74
+  408  docker rm --force $(docker ps -aq)
+  409  docker rmi --force $(docker images -aq)
+  410  docker ps -a
+  411  docker ps
+  412  set hostname tse
+  413  systemctl hostname restart
+  414  reboot
+  415  sudo reboot
+  416  hostname
+  417  sudo hostnamectl set-hostname master
+  418  hostnamectl 
+  419  sudo reboot
+  420  ls
+  421  docker ps
+  422  docker build --file Dockerfile --tag cloud:v1 .
+  423  docer ps
+  424  docker ps
+  425  docker images
+  426  docker run -d -P c53542a5b47a
+  427  docker ps
+  428  docker push 
+  429  docker opush c53542a5b47a 
+  430  docker push docker.io c53542a5b47a 
+  431  docker push docker.io c53542a5b47a  --tag new:v1
+  432  docker tag c53542a5b47a docker.io/kotireddy680/new:v1
+  433  docker ps
+  434  docker images
+  435  docker push docker.io/kotireddy6/new:v1
+  436  sudo docker push docker.io/kotireddy6/new:v1
+  437  docker push docker.io/kraws/new:v1
+  438  docker push docker.io/kotireddy680/new:v1
+  439  docker push
+  440  docker login
+  441  docker push docker.io/kotireddy/new:v1
+  442  docker push docker.io/c/new:v1
+  443  docker push 
+  444  docker push kotireddy680/new:v1
+  445  docker login
+  446  docker push kotireddy680/new:v1
+  447  sudo su
+  448  docker 
+  449  free -m
+  450  sudo su
+  451  git
+  452  git clone https://github.com/kotireddy6/docker-k8s.git
+  453  ls
+  454  cd docker-k8s/
+  455  cd 
+  456  mv Dockerfile docker-k8s/
+  457  cd docker-k8s/
+  458  ls
+  459  git add .
+  460  git commit -m "1st project" Dockerfile 
+  461  git config --global --edit
+  462  git status
+  463  git branch master
+  464  git status
+  465  git init
+  466  ls
+  467  git add .
+  468  git commit -m "added new file" Dockerfile 
+  469  git push
+  470  ssh-keygen 
+  471  cd
+  472  cd .ssh/
+  473  ls
+  474  cat authorized_keys 
+  475  cat id_rsa.pub 
+  476  git@github.com:kotireddy680/docker-k8s.git
+  477  cd 
+  478  cd docker-k8s/
+  479  ls
+  480  git@github.com:kotireddy680/docker-k8s.git
+  481  ssh git@github.com:kotireddy680/docker-k8s.git
+  482  git clone git@github.com:kotireddy680/docker-k8s.git
+  483  git init
+  484  git add .
+  485  ls
+  486  cd docker-k8s/
+  487  git add .
+  488  cd 
+  489  cd docker-k8s/
+  490  cd ..
+  491  mv Dockerfile 
+  492  mv Dockerfile docker-k8s/
+  493  cd docker-k8s/
+  494  git commit -m "dockerfile" Dockerfile 
+  495  git commit -m "myfirst" Dockerfile 
+  496  git commit -m "myfirst" .
+  497  git add 
+  498  git push
+  499  git add .
+  500  ls
+  501  git init
+  502  git add .
+  503  git commit -m "my first" Dockerfile 
+  504  git config --global user.name "kotireddy"
+  505  git config --global user.email kotireddygmail.com
+  506  git commit --amend --rest-author
+  507  git push 
+  508  cat Dockerfile 
+  509  touch k8s-cluster-setup.txt
+  510  git add k8s-cluster-setup.txt 
+  511  git commit -m "cluster setup" k8s-cluster-setup.txt 
+  512  git push
+  513  terraform
+  514  sudo apt install terraform
+  515  snap install terraform
+  516  ls
+  517  history 
+  518  echo history > k8s-cluster-setup.txt 
+  519  cat k8s-cluster-setup.txt 
+  520  history > k8s-cluster-setup.txt 
